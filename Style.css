@@ -1,0 +1,239 @@
+body{
+    color: aliceblue;
+    background-color: rgb(13,23,33);
+    margin: auto;
+    padding: 0;
+}
+.NavPar{
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    background-color:  rgb(13,23,33);
+    overflow: hidden;
+}
+
+.NavPar a{
+    display: inline-block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.NavPar li{
+    float: left;
+}
+ 
+.clrNavPar{
+    clear: both;
+}
+
+.NavPar a:hover{ 
+    background-color: rgb(224, 9, 9);
+}
+
+.Startfont{
+    color: rgb(250, 247, 247);
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+    padding: 100px;
+    text-transform: capitalize;
+    /* text-shadow: 0px 0px rgb(218, 223, 211); */
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.img{
+    width: 40%;
+    height: 500px;
+}
+
+
+.SidePar{
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    background-color:  rgb(13,23,33);
+    overflow: hidden;
+    overflow-x: scroll;
+    overflow-x: hidden;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+    width: auto;
+
+
+}
+
+.SidePar a{
+    display: inline-block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+
+.SidePar li{
+    float: inline-start;
+}
+ 
+.SidePar{
+    clear: both;
+}
+
+.SidePar a:hover{ 
+    background-color: rgb(224, 9, 9);
+}
+
+#leftmenuinner {
+    overflow: auto;
+    /* -webkit-overflow-scrolling: touch; */
+    height: 100%;
+    position: fixed;
+    width: auto;
+    padding-top: 0;
+    background-color: #970909;
+}
+#leftmenuinner {
+    position: fixed;
+    top: 25;
+    padding-bottom: 30;
+    height: 100%;
+    width: 20px;
+}
+
+
+
+.Next{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(13,23,33);
+    overflow: hidden;
+}
+.Next a{
+    display: inline-block;
+    padding: 10px;
+    color: rgb(255, 249, 249);
+    text-decoration: none;
+    font-size: 20px;
+}
+.Next li{
+    float: right;
+}
+.clrPhone1{
+    clear: both;}
+.Next a:hover{ 
+    background-color: rgb(224, 9, 9);
+}
+.previous{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(13,23,33);
+    overflow: hidden;
+}
+.previous a{
+    display: inline-block;
+    padding: 10px;
+    color: rgb(255, 249, 249);
+    text-decoration: none;
+    font-size: 20px;
+}
+.previous li{
+    float: left;
+}
+.clrPhone1{
+    clear: both;}
+.previous a:hover{ 
+    background-color: rgb(224, 9, 9);
+}
+
+
+input[type=text],  input[type=email], input[type=password],select{
+
+    width: 100%;
+    border: 1px blue solid;
+    background-color: rgb(236, 197, 203);
+    padding: 5px 20px;
+    margin: 10px 20px;
+    color: blue;
+    font-size: large;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: block;
+
+}
+
+input[type=submit], input[type=reset] {
+    width: 50%;
+    height: 50px;
+    background-color: #babadd;
+    box-sizing: border-box;
+    border: solid 1px red;
+    border-radius: 5px;
+    margin-left: 250px;   
+  /*  display: block; */
+
+}
+
+input[type=text]:focus{
+    background-color: blueviolet;
+    color: wheat;
+    border: 1px solid red;
+}
+
+/**************************************** color Gardient ************/
+
+.colorG{
+    width: 500px;
+    height: 150px;
+  /*  background-image: linear-gradient(red, green);*/
+  background-color: red;
+  background-image: repeating-radial-gradient(red,yellow,green);
+}
+
+/***********************transitions *****************/
+
+.trans{
+
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: width 2s;
+    transition-delay: 1s;
+}
+
+.trans:hover{
+    width: 400px;
+}
+
+.trans2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 2s, height 2s;
+
+}
+.trans2:hover{
+    width: 300px;
+    height: 300px;
+
+}
+
+.trans3{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: width 1s, height 1s, transform 3s;
+}
+
+.trans3:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
